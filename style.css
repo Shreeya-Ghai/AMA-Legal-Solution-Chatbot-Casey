@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #736f6f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  .chatbot-icon {
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+    border-radius: 50%;
+  }  
+  
+  .chatbot-container {
+    background: rgb(193, 196, 199);
+    width: 400px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    overflow: hidden;
+  }
+  
+  .chatbot-header {
+    background: #6289b0;
+    color: white;
+    text-align: center;
+    padding: 10px 10px 10px 10px;/* TOP padding thoda badha diya */
+  }
+  
+  
+  
+  #chat-area {
+    padding: 20px;
+    height: 270px;
+    overflow-y: auto;
+  }
+  
+  #options-area {
+    padding: 20px;
+    border-top: 1px solid #eee;
+  }
+  button {
+    display: block;
+    width: 100%;
+    margin: 5px 0;
+    padding: 10px;
+    background: #649a94;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  button:hover {
+    background: #6289b0;
+  }
+  
