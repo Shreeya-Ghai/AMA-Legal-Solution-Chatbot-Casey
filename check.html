@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>AMA Legal Solutions Assistant</title>
+  <!--<link rel="stylesheet" href="style.css">-->
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+  <script src="{{ url_for('static', filename='script.js') }}"></script>
+  <img src="{{ url_for('static', filename='casey_ama.jpg') }}" alt="Image">
+</head>
+<body>
+
+<div class="chatbot-container">
+  <div class="chatbot-header">
+    <img src="casey_ama.jpg" alt="Chatbot Icon" class="chatbot-icon">
+    <h1>AMA LEGAL SOLUTIONS</h1>
+    <h4>CASEY</h4> <!-- moved here below title -->
+  </div>
+
+  <div id="chat-area"></div>
+
+  <div id="options-area"></div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
